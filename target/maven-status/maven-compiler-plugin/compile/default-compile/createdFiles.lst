@@ -1,0 +1,7 @@
+com\kaiburr\taskmanager\model\TaskExecution.class
+com\kaiburr\taskmanager\model\Task.class
+com\kaiburr\taskmanager\controller\TaskController.class
+com\kaiburr\taskmanager\TaskManagerApplication.class
+com\kaiburr\taskmanager\service\CommandValidator.class
+com\kaiburr\taskmanager\repository\TaskRepository.class
+com\kaiburr\taskmanager\TestController.class
