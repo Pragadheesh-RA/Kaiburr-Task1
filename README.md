@@ -56,7 +56,7 @@ mkdir -p src/test/java
 ```
 
 
-### Step 5: Create Java Source Files
+### Step 3: Create Java Source Files
 
 You'll need to create the following Java files with the complete code:
 
@@ -99,8 +99,16 @@ You should see either an empty array `[]` or a JSON response (not a 404 error).
 2. **Create New Collection** called "Kaiburr Task Manager API"
 3. **Add requests as described below**
 
+**API Endpoints**
+Method  |  Endpoint                   |  Description          
+--------+-----------------------------+-----------------------
+GET     |  /tasks                     |  Get all tasks        
+GET     |  /tasks?id={id}             |  Get task by ID       
+PUT     |  /tasks                     |  Create or update task
+DELETE  |  /tasks?id={id}             |  Delete task by ID    
+GET     |  /tasks/search?name={name}  |  Search tasks by name 
+PUT     |  /tasks/{id}/execute        |  Execute task command 
 
-## 🐛 Troubleshooting Guide
 
 ### Common Issues and Solutions
 
