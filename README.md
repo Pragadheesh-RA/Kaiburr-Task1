@@ -99,17 +99,6 @@ You should see either an empty array `[]` or a JSON response (not a 404 error).
 2. **Create New Collection** called "Kaiburr Task Manager API"
 3. **Add requests as described below**
 
-Method	Endpoint	Description
-GET	/tasks	Get all tasks
-GET	/tasks?id={id}	Get task by ID
-PUT	/tasks	Create or update task
-DELETE	/tasks?id={id}	Delete task by ID
-GET	/tasks/search?name={name}	Search tasks by name
-PUT	/tasks/{id}/execute	Execute task command
-Sample Requests
-
-
-
 ### Common Issues and Solutions
 
 #### 1. "mvn command not found"
