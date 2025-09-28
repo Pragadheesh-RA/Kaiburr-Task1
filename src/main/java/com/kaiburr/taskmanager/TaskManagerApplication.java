@@ -12,7 +12,6 @@ public class TaskManagerApplication {
     }
 }
 
-// Add this test controller to verify basic mapping works
 @RestController
 class TestController {
     @GetMapping("/test")
